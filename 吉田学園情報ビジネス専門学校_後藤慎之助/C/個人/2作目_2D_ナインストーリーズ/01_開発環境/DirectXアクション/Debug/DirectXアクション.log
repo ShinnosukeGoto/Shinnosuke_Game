@@ -1,0 +1,126 @@
+﻿  ui.cpp
+  title.cpp
+  time.cpp
+  sound.cpp
+  select.cpp
+  score.cpp
+  result2.cpp
+  result.cpp
+  player.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(59): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(60): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(274): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(294): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(299): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(316): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(321): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(334): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(339): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(350): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(355): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(377): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(384): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(403): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(410): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(429): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(436): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(454): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(459): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(484): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(489): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(510): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(511): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(512): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(516): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(517): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(518): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(558): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(562): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(693): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(1038): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(1039): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\player.cpp(1092): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  manual.cpp
+  main.cpp
+  mpbar.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\mpbar.cpp(131): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  magic.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(207): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(267): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(327): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(388): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(448): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(508): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(568): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(627): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(744): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(745): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(789): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(796): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\magic.cpp(810): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  item.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\item.cpp(259): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\item.cpp(301): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  input.cpp
+  game3.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\game3.cpp(76): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  game2.cpp
+  game.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\game.cpp(87): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+  floor.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(66): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(67): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(273): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(274): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(284): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\floor.cpp(285): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+  fade.cpp
+  コードを生成中...
+  コンパイル中...
+  explosion.cpp
+  enemy.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(719): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(723): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(728): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(839): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(840): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(900): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(946): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(954): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(960): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(978): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(1024): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\enemy.cpp(1468): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  effect2.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\effect2.cpp(199): warning C4305: '-=': 'double' から 'FLOAT' へ切り詰めます。
+  effect.cpp
+  controller.cpp
+  bullet.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bullet.cpp(226): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bullet.cpp(227): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bullet.cpp(307): warning C4305: '-=': 'double' から 'FLOAT' へ切り詰めます。
+  block.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\block.cpp(307): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\block.cpp(320): warning C4305: '-=': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\block.cpp(321): warning C4305: '-=': 'double' から 'FLOAT' へ切り詰めます。
+  bg2.cpp
+  bg.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bg.cpp(295): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bg.cpp(296): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+  bar.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\bar.cpp(167): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  attack.cpp
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(521): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(540): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(563): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(563): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(590): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(590): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(627): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(627): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(654): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\gsp048\documents\visual studio 2015\projects\directxアクション\directxアクション\attack.cpp(654): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  LINK : 前回のインクリメンタル リンクで C:\Users\GSP048\Documents\Visual Studio 2015\Projects\DirectXアクション\Debug\DirectXアクション.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+  DirectXアクション.vcxproj -> C:\Users\GSP048\Documents\Visual Studio 2015\Projects\DirectXアクション\Debug\DirectXアクション.exe
+  DirectXアクション.vcxproj -> C:\Users\GSP048\Documents\Visual Studio 2015\Projects\DirectXアクション\Debug\DirectXアクション.pdb (Full PDB)

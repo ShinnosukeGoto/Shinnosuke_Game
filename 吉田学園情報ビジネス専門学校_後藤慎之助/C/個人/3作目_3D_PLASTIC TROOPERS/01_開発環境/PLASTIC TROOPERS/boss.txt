@@ -1,0 +1,105 @@
+CHARACTERSET
+	MOVE = 3.0						# 移動量
+	JUMP = 10.25					# ジャンプ量
+	RADIUS = 20.0					# 半径
+	NUM_PARTS = 14					# パーツ数
+
+	PARTSSET
+		INDEX = 0					# 体(前)
+		PARENT = -1					# (親)NULL
+		POS = 0.0 200.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 1					# 体(後ろ)
+		PARENT = 0					# (親)体
+		POS = 0.0 0.0 50.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 2					# 頭
+		PARENT = 0					# (親)体
+		POS = 0.0 0.0 -30.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 3					# 左腿
+		PARENT = 1				# (親)体
+		POS = 70.0 -20.0 32.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 4					# 左脛
+		PARENT = 3					# (親)体
+		POS = 0.0 -91.0 -40.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 5					# 左足
+		PARENT = 4					# (親)体
+		POS = 0.0 -68.0 22.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 6					# 右腿
+		PARENT = 1					# (親)左腿
+		POS = -70.0 -20.0 32.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 7					# 右脛
+		PARENT = 6					# (親)右腿
+		POS = 0.0 -91.0 -40.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 8					# 右足
+		PARENT = 7					# (親)左腕
+		POS = 0.0 -68.0 22.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 9					# 右手
+		PARENT = 0					# (親)右腕
+		POS = -40.0 -30.0 0.0 
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 10					# 左手
+		PARENT = 0					# (親)右手
+		POS = 40.0 -30.0 0.0 
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 11					# 左翼
+		PARENT = 0					# (親)右手
+		POS = 55.0 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 12					# 右翼
+		PARENT = 0					# (親)右手
+		POS = -55.0 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 13					# しっぽ
+		PARENT = 1					# (親)右手
+		POS = 0.0 0.0 50.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+END_CHARACTERSET

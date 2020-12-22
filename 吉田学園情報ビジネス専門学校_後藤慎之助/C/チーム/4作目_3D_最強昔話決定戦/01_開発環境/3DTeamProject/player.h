@@ -1,0 +1,121 @@
+//=============================================================================
+//
+// 最強昔話決定戦の処理[player.h]（自機1）
+// Author:後藤慎之助
+//
+//=============================================================================
+#ifndef _PLAYER_H_
+#define _PLAYER_H_
+
+//=============================================================================
+// インクルードファイル
+//=============================================================================
+#include "main.h"
+
+//=============================================================================
+// マクロ定義
+//=============================================================================
+//プレイヤーの初期位置
+#define PLAYER_FIRST_POS_X (100.0f)
+#define PLAYER_FIRST_POS_Z (1100.0f)
+
+#define PLAYER_STUN_TIME 180 //プレイヤーのスタン時間
+
+//=============================================================================
+//構造体定義
+//=============================================================================
+
+// アニメーションキーセット情報
+typedef struct
+{
+    D3DXVECTOR3 pos[MAX_PARTS];
+    D3DXVECTOR3 rot[MAX_PARTS];
+    int nFrame;     // 1モーションのキーフレーム数
+}KEY_INFO_PLAYER;
+
+// アニメーション情報
+typedef struct
+{
+    bool nLoop;		// ループするか
+    int nNum_Key;			// モーションのキー数
+    KEY_INFO_PLAYER KeyInfo[MOTION_KEYSET_MAX];		// アニメーションに含むキーセット情報
+}ANIMATION_PLAYER;
+
+//モーションの状態
+typedef enum
+{
+    MOTIONSTATE_PLAYER_IDLE = 0,		// 待機モーション
+    MOTIONSTATE_PLAYER_WALK,			// 歩きモーション
+    MOTIONSTATE_PLAYER_REGRET,		    // 悔しがりモーション
+    MOTIONSTATE_PLAYER_PLEASURE,		// 喜びモーション
+    MOTIONSTATE_PLAYER_,			    // 
+    MOTIONSTATE_PLAYER_MAX
+}MOTIONSTATE_PLAYER;
+
+// モデルの構造体
+typedef struct
+{
+    LPD3DXMESH pMesh;				// メッシュ情報へのポインタ
+    LPD3DXBUFFER pBuffMat;			// マテリアル情報へのポインタ
+    DWORD nNumMat;					// マテリアル情報の数
+    D3DXVECTOR3 pos;				// 位置
+    D3DXVECTOR3 rot;				// 回転
+    D3DXVECTOR3 size;
+    D3DXVECTOR3 AngleAddition;		// 角度の加算
+    D3DXMATRIX mtxWorld;			// 行列計算用
+    int nldxModelParent;			// 親モデルのインデックス
+    bool bUse;
+}MODEL_PLAYER;
+
+// モデルパーツの構造体
+typedef struct
+{
+    char *pFileName;
+    int nData;
+    int nParents;			// モデルナンバー
+    D3DXVECTOR3 pos;			// 位置
+    D3DXVECTOR3 posOrigin;		// 始まりの位置
+    D3DXVECTOR3 rot;			// 角度
+}ModelParts_Player;
+
+//プレイヤーの情報
+typedef struct
+{
+    D3DXVECTOR3 pos;	            //現在の位置
+    D3DXVECTOR3 posOld;	            //1F前の位置
+    D3DXVECTOR3 rot;	            //向き
+    D3DXVECTOR3 posGrid;            //グリッドの中心の値を得る
+    D3DXMATRIX mtxWorld;			// 行列計算用
+    D3DXVECTOR3 move;	            //移動
+    MOTIONSTATE_PLAYER MotionState;		//モーションの状態
+    MODEL_PLAYER modelParts[MAX_PARTS];	//プレイヤーを構成椅子つパーツ群
+    float fLife;		            //ライフ
+    float fSpeed;                   //速さ
+    int nSpeedRank;                 //速さランク
+    int nFire;                      //火力
+    int nBomb;                      //ボムの設置可能個数
+    int nMaxBomb;                   //ボム設置の最大数
+    int nCanKick;                   //1以上でキック可能
+    bool bDisp;			            //表示切替
+    int nShadow;                    //プレイヤーの影の番号
+    int nCntInvincibleFrame;        //無敵時間
+    bool bTransparence;             //透明かどうか
+    bool bStun;                     //スタンしているかどうか
+}PLAYER;
+
+//=====================================================
+// プロトタイプ宣言
+//=====================================================
+void InitPlayer(void);
+void UninitPlayer(void);
+void UpdatePlayer(void);
+void DrawPlayer(void);
+PLAYER*GetPlayer(void);
+void HitPlayer(float fDamage);
+bool CollisionPlayer(D3DXVECTOR3* pPos, D3DXVECTOR3* pPosOld, D3DXVECTOR3 size);
+
+void UpdatePlayerMotion(void);
+void LoadPlayerAnimation(void);
+void LoadPlayer(void);
+void InitDispPlayer(void);
+#endif
